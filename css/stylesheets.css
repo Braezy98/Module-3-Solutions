@@ -3,10 +3,6 @@
 
 }
 /* Title */
-h1{
-	text-align: center;
-	padding-bottom: 50px;
-	padding-top: 50px;
 }
 /* Box */
 .row{
@@ -17,31 +13,23 @@ h1{
 	background-color: #B4B1B1;
   	margin: 10px;
   	clear: both;
+  	margin-right: 20px;
+  	margin-left: 20px;
 }
 .contenthead {
 	border-color:#000000;
 	padding: 5px 50px 5px 50px;
-	border: 1px solid black;
     padding: 5px 50px 5px 50px;
     margin-left: auto;
     background-color: #B4B1B1;
+    text-align: center;
 }
 /* Content Titles */
 .sushititle{
-	position: relative;
-	background-color: #E4E070;
-	border: 2px  solid #050404;
 }
 .chickentitle{
-	position: relative;
-	background-color: #EA98A8; 
-	border: 2px solid #050404;
 }
 .beeftitle{
-	position: relative;
-	background-color: #CC2828;
-	border: 2px  solid #050404;
-	color: #ffffff;
 }
 /* Content Text */
 .dummytext{
@@ -49,26 +37,50 @@ clear: both;
 text-align: left;
 padding: 20px;
 }
+/*Nav Bar*/
+#nav-list {
+}
+#nav-list a {
+  color: #000000;
+  text-align: center;
+  background-color: white;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+.navbar {
+	background-color: grey;
+	border-radius: 0;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/*Drop Down list*/
+ul{
+	background-color: white;
+}
 /* Media Queries */
 /* Desktop */
 @media (min-width: 992px) {
-	.boxgrey {
 
-    }
 }
 	
 /* Tablet */
 @media (min-width: 767px) and (max-width: 991px) {
-	.boxgrey {
 
-	} 
-    .tablet {
 
-    }
 }
 /* Mobile */
 @media (max-width: 767px) {
-	.boxgrey {
-  
-    }
+	.boxgrey{
+		margin-right: 75px;
+		margin-left: 75px;
+
+	}
 }
