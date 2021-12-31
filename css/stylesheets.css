@@ -3,11 +3,17 @@
 
 }
 /* Title */
+/* Header */
+header{
+  position: sticky;
+  top: 10px;
+  z-index: 100;
 }
 /* Box */
 .row{
 	position: relative;
 	text-align: center;
+  z-index: 0;
 }
 .boxgrey{
 	background-color: #B4B1B1;
@@ -38,6 +44,8 @@ text-align: left;
 padding: 20px;
 }
 /*Nav Bar*/
+#navbar {
+}
 #nav-list {
 }
 #nav-list a {
