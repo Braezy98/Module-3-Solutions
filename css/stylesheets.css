@@ -6,7 +6,7 @@
 /* Header */
 header{
   position: sticky;
-  top: 10px;
+  top: 0;
   z-index: 100;
 }
 /* Box */
@@ -29,6 +29,8 @@ header{
     margin-left: auto;
     background-color: #B4B1B1;
     text-align: center;
+    font-weight: bold;
+    font-size: 20px;
 }
 /* Content Titles */
 .sushititle{
@@ -42,6 +44,8 @@ header{
 clear: both;
 text-align: left;
 padding: 20px;
+font-size: 14px;
+
 }
 /*Nav Bar*/
 #navbar {
@@ -69,6 +73,18 @@ padding: 20px;
   clear: both;
   margin-top: -30px;
 }
+/* Button */
+#myBtn {
+  position: sticky; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  z-index: 99; /* Make sure it does not overlap */
+  outline: none; /* Remove outline */
+  background-color: transparent; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  font-size: 18px; /* Increase font size */
+}
 /*Drop Down list*/
 ul{
 	background-color: white;
@@ -76,11 +92,18 @@ ul{
 /* Media Queries */
 /* Desktop */
 @media (min-width: 992px) {
+  #myBtn{
+    display: none;
+  }
 
 }
 	
 /* Tablet */
 @media (min-width: 767px) and (max-width: 991px) {
+  #myBtn{
+    display: none;
+  }
+
 
 
 }
