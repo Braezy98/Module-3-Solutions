@@ -1,14 +1,22 @@
-/* Applied to all */
+/* Applied to all */;
 *{
-
+  --header-height: 300px;
 }
 /* Title */
+
+
 /* Header */
 header{
   position: sticky;
   top: 0;
   z-index: 100;
 }
+h1{
+  font-weight: bold;
+  font-size: 40px;
+
+}
+
 /* Box */
 .row{
 	position: relative;
@@ -21,16 +29,16 @@ header{
   	clear: both;
   	margin-right: 20px;
   	margin-left: 20px;
+    scroll-margin-top: 225px;
 }
 .contenthead {
 	border-color:#000000;
-	padding: 5px 50px 5px 50px;
-    padding: 5px 50px 5px 50px;
-    margin-left: auto;
-    background-color: #B4B1B1;
-    text-align: center;
-    font-weight: bold;
-    font-size: 20px;
+	padding: 25px 50px 5px 50px;
+  margin-left: auto;
+  background-color: #B4B1B1;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
 }
 /* Content Titles */
 .sushititle{
@@ -73,18 +81,6 @@ font-size: 14px;
   clear: both;
   margin-top: -30px;
 }
-/* Button */
-#myBtn {
-  position: sticky; /* Fixed/sticky position */
-  bottom: 20px; /* Place the button at the bottom of the page */
-  z-index: 99; /* Make sure it does not overlap */
-  outline: none; /* Remove outline */
-  background-color: transparent; /* Set a background color */
-  color: white; /* Text color */
-  cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 15px; /* Some padding */
-  font-size: 18px; /* Increase font size */
-}
 /*Drop Down list*/
 ul{
 	background-color: white;
@@ -95,7 +91,12 @@ ul{
   #myBtn{
     display: none;
   }
-
+  .dummytext{
+    font-size: 25px;
+  }
+  .contenthead{
+    font-size: 30px;
+  }
 }
 	
 /* Tablet */
@@ -103,15 +104,17 @@ ul{
   #myBtn{
     display: none;
   }
-
-
-
-}
+  .dummytext{
+    font-size: 25px;
+  }
+  .contenthead{
+    font-size: 30px;
+  }
 /* Mobile */
 @media (max-width: 767px) {
 	.boxgrey{
-		margin-right: 75px;
-		margin-left: 75px;
+		margin-right: 45px;
+		margin-left: 45px;
 
 	}
 }
